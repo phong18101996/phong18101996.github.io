@@ -50,23 +50,40 @@
 </nav>
     
 <!-- <hr class="hr-divide-header" align="left"> -->
-      <section class="archive">
-   
-    <div class="archive-item">
-  <a class href="/2020/09/17/hexo-tutorial/">
-    hexo tutorial
-  </a>
-  <span>2020/9/17 </span>
-</div> 
-   
-    <div class="archive-item">
-  <a class href="/2020/09/17/hello-world/">
-    Hello World
-  </a>
-  <span>2020/9/17 </span>
-</div> 
-     
-</section> 
+      <a name="top"></a>
+
+<section class="article">  
+  <h2 class="article-title">
+    hexo tutorial 
+  </h2>
+  <p class="article-date">
+    2020/9/17 
+  </p>
+
+  <hr class="hr-divide">
+
+  <div class="article-content">
+    <ul>
+<li>Cài đặt Hexo<br>  $ npm install hexo-cli -g</li>
+<li>Tạo Project mới<br>  $ hexo init “name_project”  </li>
+<li>Cài dependencies cho project<br>  $ cd ngoann_blog<br>  $ npm install       </li>
+<li>Run server<br>  $ hexo server <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></li>
+<li>Deploy lên github<br>  1.Thay đổi file  _config.yml như sau<pre><code>  deploy:
+  type: git
+  repo: link git responsitory         </code></pre>
+  2.Cài thêm plugin hexo-deployer-git<pre><code>  $ hexo generate
+  $ hexo deploy</code></pre>
+</li>
+</ul>
+ 
+    <hr class="hr-divide">
+    <div class="article-footer">
+      <a href="#top">back to top</a>
+    </div>
+  </div>
+
+  
+</section>  
       <!-- Footer -->
       <!-- <h1>This is the footer.ejs file</h1> -->
 
